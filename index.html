@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+			table{
+				width:697px;
+				height:357px;
+				border:0;
+			}
+			.box {
+				width: 118px;
+				height: 27px;
+				color: red;
+				font-size: 10px;
+				background: rgb(156, 207, 255)
+			}
+
+			.box1 {
+				background: rgb(247, 243, 247)
+			}
+
+			.box2 {
+				width: 118px;
+				height: 27px;
+				padding: 0px 0px;
+			}
+
+			.box3 {
+				width: 202px;
+				height: 101px;
+			}
+		</style>
+	</head>
+	<body>
+		<form>
+		<table>
+			<tr>
+				<td colspan="2" class="box" style="text-align:center">信息统计表</td>
+			</tr>
+			<tr class="box1">
+				<td class="box2" style="text-align:end">姓名：</td>
+			<td><input type="text" name="name" size="20" /></td>
+			</tr>
+			<tr class="box1">
+				<td class="box2" style="text-align:end">年龄：</td>
+				<td><input type="age" name="age" size="20" /></td>
+			</tr>
+			<tr class="box1">
+				<td class="box2" style="text-align:end">性别：</td>
+				<td><input type="radio" checked="checked" name="sex" />男
+					<input type="radio" name="sex" />女
+				</td>
+			</tr>
+			<tr class="box1">
+				<td class="box3" padding="0" style="text-align:end">爱好：</td>
+				<td><input type="checkbox" name="旅游" checked>旅游<br />
+					<input type="checkbox" name="登山">登山<br />
+					<input type="checkbox" name="健身">健身<br />
+					<input type="checkbox" name="上网">上网<br />
+					<input type="checkbox" name="游泳">游泳<br />
+				</td>
+			</tr>
+			<tr class="box1">
+				<td class="box2" style="text-align:end">学历：</td>
+				<td> <select>
+						<option value="">--请选择--</option>
+						<option value="2">911</option>
+						<option value="3">一本</option>
+						<option value="4">二本</option>
+						<option value="3">三本</option>
+						<option value="5">大专</option>
+					</select>
+				</td>
+			</tr>
+			<tr class="box1">
+				<td class="box3" style="text-align:end">自我介绍：</td>
+				<td>
+						<textarea cols="15" rows="7">自我简介：</textarea>
+				</td>
+			</tr>
+			<tr class="box1">
+				<td class="box2" style="text-align:end"></td>
+				<td>
+					<input type="submit" value="注册">
+					<input type="reset" value="重置">
+				</td>
+			</tr>
+		</table>
+		</form>
+	</body>
+</html>
+<!--12345-->
